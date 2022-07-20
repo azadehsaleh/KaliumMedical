@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALIUM MEDICAL</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="js/all.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div>
+        <div class="container">
+        <div class="menu">
+            <div class="logo">
+                <img src="img/kalium-medical.png">
+
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Doctors</a>
+                    </li>
+                    <li>
+                        <a href="#">Departments     <i class="fa fa-angle-down"></i></a>
+                        <div class="subNav">
+                            <ul>
+                                <li>
+                                    <a href="#">Dentistry</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ophthalmology</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cardiology</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pediatrics</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dermatology</a>
+                                </li>
+                                <li>
+                                    <a href="#">Gynecology</a>
+                                </li>
+                                <li>
+                                    <a href="#">Urology</a>
+                                </li>
+                                <li>
+                                    <a href="#">Surgery</a>
+                                </li>
+                                <li>
+                                    <a href="#">Veterinary</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <a href="#">Appointments</a>
+                    </li>
+                    <li>
+                        <a href="#">News     <i class="fa fa-angle-down"></i></a>
+                        <div class="subNav">
+                            <ul>
+                                <li>
+                                    <a href="#">One Col.Masonry</a>
+                                </li>
+                                <li>
+                                    <a href="#">Two Col.Masonry</a>
+                                </li>
+                                <li>
+                                    <a href="#">Three Col.Masonry</a>
+                                </li>
+                                <li>
+                                    <a href="#">Rounded</a>
+                                </li>
+                                <li>
+                                    <a href="#">Classic</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sidebar Left</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sidebar Right</a>
+                                </li>
+                                <li>
+                                    <a href="#">No Sidebar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog Post<i class="fa fa-caret-right"></i></a>
+
+                                    <div class="subNav1">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Dentistry</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ophthalmology</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Cardiology</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Pediatrics</a>
+                                            </li>
+                                        </ul>
+            
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li id="Hide1">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li id="Hide2" class="border">
+                        <a id="border1" href="#">BUY</a>
+                    </li>
+                </ul>
+            </div>
+           <div id="ff" class="searchBox">
+                <input placeholder="Search Site..." type="text"  >
+           </div>
+            <div id="Se" class="search" >
+                <a href="#" onclick="openBox()" ><i class="fa fas fa-search" ></i></a>
+            </div>
+        </div>
+        </div>
+        <div class="slideBar">
+            <img id="point3" class="mySlide" src="img/slider1.jpg">
+            
+            <img id="point2" class="mySlide" src="img/slider2.jpg">
+           
+            <img id="point" class="mySlide" src="img/slider3.jpg">
+            
+            <button id="previous" class="prev" onclick="plusShow(-1)"><i class="fa fa-angle-left"></i></button>
+            <button id="next1" class="next" onclick="plusShow(1)"><i class="fa fa-angle-right"></i></button>
+        </div>
+       
+        <div class="message-slide">
+            <h3 class="message-slide-h3" id="h3id1">Dental care for kids</h3>
+            <p class="message-slide-p" id="pid1">We offer top quality dental treatments,</br>
+            for a healthy and beautiful smile.</p>
+            <a class="message-slide-a" id="aid1">Make an appointment<i class="fa fa-angle-right"></i></a>
+
+            <h3 class="message-slide-h3" id="h3id2">Medical advices</h3>
+            <p class="message-slide-p" id="pid2">For more than a decade, people from all walks</br>
+                of life have found answers at Kalium Hospital.</p>
+            <a class="message-slide-a" id="aid2">Meet our Doctors<i class="fa fa-angle-right"></i></a>
+
+            <h3 class="message-slide-h3" id="h3id3">Skilled doctors</h3>
+            <p class="message-slide-p" id="pid3">Certified by the most famous medical universities,</br>
+                they are here to help our patients.</p>
+            <a class="message-slide-a" id="aid3">Make an appointment<i class="fa fa-angle-right"></i></a>
+
+        </div>
+
+
+        <div class="caring_table">
+            <div class="ct-container">
+                <div class="caring">
+                    <h1>Caring for the growing needs of our community.</h1>
+                    <p>For more than a decade, people from all walks of life have found answers at Kalium Hospital.
+                        Hospital’s main campus is located in the heart of the city. In addition, a number of programs function outside the actual one. Here are some reasons why more than a million people each year choose Kalium Hospital for their medical care:
+                        
+                       </p>
+                       <ul>
+                           <li>
+                            Experienced doctors in every specialty
+                           </li>
+                           <li>
+                            Simplify a company’s legal project management approach
+                           </li>
+                           <li>
+                            Satisfied patients and an unparalleled experience
+                           </li>
+                       </ul>
+
+                </div>
+                <div class="table">
+                    <h3>Working Hours</h3>
+                    <p>Caring for patients, every day of the week.</p>
+                    <table id="css-table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Monday-Friday</strong>
+                                    <td>07:00 - 24:00</td>
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Saturday</strong>
+                                </td>
+                                <td>9:00 - 24:00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Sunday</strong>
+                                </td>
+                                <td>9:00 - 20:00</td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                    <div class="tel" title="0800 100 20">
+                        <img class="image-phone" src="img/Screen Shot 2020-11-11 at 11.10.54 PM.png">
+                        <a href="tel:+140855555555" >emergency call: 0800 100 20</a>
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+        <div class="departments">
+            <div class="d-container">
+                <div class="departments-style">
+                    <div class="departments-body">
+                        <h1>Departments</h1>
+                        <p>Highly skilled doctors awarded and certified by the most famous medical research universities around the globe,</br>
+                             experienced by the most complicated cases they are here to help our patients.</p>
+
+                    </div>
+                    <div class="all-departments">
+                        <a href="#">All Departments<i class="fa fa-angle-double-right"></i></a>
+
+                    </div>
+                </div>
+                <div class="photo-gallery">
+                <div id="photo1" class="photo">
+                    <img class="p1" src="img/dentist-at-work-655x545.jpg">
+                    <div id="test" class="photo-gif">
+                    <img class="gif-gif" src="https://demo.kaliumtheme.com/medical/wp-content/uploads/2018/11/pulse-1.gif">
+                   </div>
+                </div>
+                <div id="photo2" class="photo">
+                    <img class="p1"  src="img/cardiologue-rythmologue-655x545.jpg">
+                    <div id="test1" class="photo-gif">
+                    <img class="gif-gif" src="https://demo.kaliumtheme.com/medical/wp-content/uploads/2018/11/pulse-1.gif">
+                    </div>
+                </div>
+                <div id="photo3" class="photo">
+                   <img class="p1"  src="img/Pregnancy-Imaging-Sub-655x545.jpg">
+                    <div id="test2" class="photo-gif">
+                    <img class="gif-gif" src="https://demo.kaliumtheme.com/medical/wp-content/uploads/2018/11/pulse-1.gif">
+                    </div>
+                </div>
+                <div  id="photo4" class="photo">
+                    <img class="p1" src="img/surgery-department-655x545.jpg">
+                    <div id="test3" class="photo-gif"> 
+                    <img class="gif-gif" src="https://demo.kaliumtheme.com/medical/wp-content/uploads/2018/11/pulse-1.gif">
+                    </div>
+                </div>
+                </div>
+                <div class="dentistry-body">
+                    <h3>Dentistry</h3>
+                    <p>We provide preventive, restorative</br>
+                       and orthodontic services under local</br>
+                       and general anaesthesia along with</br>
+                       routine dental care.</p>
+
+                </div>
+                <div class="cardiology-body">
+                    <h3>Cardiology</h3>
+                    <p>This department is a modern state of</br>
+                       the art unit providing a full range of</br>
+                       non-invasive and invasive cardiac</br>
+                       investigations and treatments.</p>
+
+                </div>
+                <div class="gynecology-body">
+                    <h3>Gynecology</h3>
+                    <p>We provide a diagnostic and</br>
+                       treatment resource for gynaecology</br>
+                       problems. We offer a wide range of</br>
+                       investigative procedure.</p>
+
+                </div>
+                <div class="surgery-body">
+                    <h3>Surgery</h3>
+                    <p>A self-contained unit that cares about</br>
+                       their patients requiring elective or</br>
+                       emergency operations. As well as</br>
+                       treating existing inpatients.</p>
+
+                </div>
+                <div class="dentistry-li">
+                    <ul>
+                        <li>
+                            <p>Dermatology</p>
+                        </li>
+                        <li>
+                            <p>Urology</p>
+                        </li>
+                        <li>
+                            <p>Podiatry</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="cardiology-li">
+                    <ul>
+                        <li>
+                            <p>Radiology</p>
+                        </li>
+                        <li>
+                            <p>Nephrology</p>
+                        </li>
+                        <li>
+                            <p>Oncology</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="gynecology-li">
+                    <ul>
+                        <li>
+                            <p>Rhinology</p>
+                        </li>
+                        <li>
+                            <p>Sports Medicine</p>
+                        </li>
+                        <li>
+                            <p>Rheumatology</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="surgery-li">
+                    <ul>
+                        <li>
+                            <p>Pulmonology</p>
+                        </li>
+                        <li>
+                            <p>Neurology</p>
+                        </li>
+                        <li>
+                            <p>Endocrinology</p>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="medical-services">
+            <div class="e-container">
+                <div class="image-doctor">
+                    <img src="img/doctor-home.png"> 
+
+                </div>
+                <div class="medical-services-body">
+                    <div class="medical-services-top">
+                        <h2>Medical services</h2>
+                        <p>Our healthcare professionals are dedicated to providing the best possible care for patients,</br>
+                           and are supported by complete radiology and imaging services provided at Kalium.</p>
+
+                    </div>
+                    <div class="check-ups">
+                        <img src="img/stethoscope-150x150.png">
+                        <p><strong>Check ups</strong></br>
+                        Regular check-ups elit, sed do</br>
+                           eiusmod tempor incididunt ut</br>
+                           labore et dolore magna.</p>
+
+                    </div>
+                    <div class="medical-advices">
+                        <img src="img/first-aid-kit-150x150.png">
+                        <p><strong>Medical Advices</strong></br>
+                        Need advices for your health,</br>
+                        consult any of our doctors by</br>
+                        visiting our clinic.</p>
+
+                    </div>
+                    <div class="emergency">
+                        <img src="img/emergency-150x150.png">
+                        <p><strong>24/7 Emergency</strong></br>We are available for you</br>
+                            everyday throughout the year.</p>
+
+                    </div>
+                    <div class="new-facilities">
+                        <img src="img/stretcher-150x150.png">
+                        <p><strong>New Facilities</strong></br>Our clinic is equipped with new</br>
+                            high technology facilities.</p>
+
+                    </div>
+                    <div class="professional-doctors">
+                        <img src="img/nurse-150x150.png">
+                        <p><strong>Professional Doctors</strong></br>Kalium Clinic doctors are among</br>
+                            the best doctors in their</br>
+                            department.</p>
+
+                    </div>
+                    <div class="patient-care">
+                        <img src="img/wheelchair-150x150.png">
+                        <p><strong>Patient Care</strong></br>Our helpful staff takes care of</br>each patient offering personal</br>
+                            nurse.</p>
+
+                    </div>
+
+                </div>
+                
+            </div>
+           
+        </div>
+        <div class="doctors-appointments-map-What patients say">
+            <div class="f-container">
+                <div class="doctors">
+                    <h3>Doctors</h3>
+                    <p>Highly skilled doctors awarded and certified by the most famous medical research universities around the globe, experienced by the</br>
+                       most complicated cases they are here to help our patients.</p>
+
+                </div>
+                <div class="view-all">
+                    <a href="#">View all<i class="fa fa-angle-double-right"></i></a>
+
+                </div>
+                <div class="doctors-picture">
+                    <div class="doctors-picture-body">
+                        <img src="img/doctor-9.jpg">
+                        <h4>Christopher Barnes</h4>
+                        <p>Founder & Cardiologist</p>
+
+                    </div>
+                    <div class="doctors-picture-body">
+                        <img src="img/doctor-7.jpg">
+                        <h4>Brittany Oliver</h4>
+                        <p>Nephrologist</p>
+
+                    </div>
+                    <div class="doctors-picture-body">
+                        <img src="img/doctor-3.jpg">
+                        <h4>Liam Lynch</h4>
+                        <p>Dermatologist</p>
+
+                    </div>
+                    <div class="doctors-picture-body">
+                        <img src="img/doctor-4.jpg">
+                        <h4>Gregory Walters</h4>
+                        <p>Dentist</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="appointment-map">
+            <div class="f-container">
+                <div class="appointments">
+                    <div class="g-container">
+                        <div class="appointment-body">
+                            <h3>Appointments</h3>
+                            <p>Our healthcare professionals are dedicated to providing the best</br>
+                                possible care for patients.</p>
+            
+                        </div>
+                        <div class="explain-form">
+                            <p>Fields marked with an <span>*</span> are required</p>
+
+                        </div>
+                        <div class="form-appointment">
+                            <form>
+                                <div class="first-name-label-input">
+                                    <div class="first-name-label">
+                                        <label>First Name <span>*</span></label>
+
+                                    </div>
+                                    <div class="first-name-input">
+                                        <input type="text" id="fName" name="fName" onclick="" autocomplete="given-name">
+
+                                    </div>
+
+                                 </div>
+                                <div class="last-name-label-input">
+                                    <div class="last-name-label">
+                                        <label>Last Name <span>*</span></label>
+
+                                    </div>
+                                    <div class="last-name-input">
+                                        <input type="text" id="lName" name="lName" onclick="" autocomplete="cc-family-name">
+
+                                    </div>
+
+                                </div>
+                                <div class="Department-label-input">
+                                    <div class="Department-label">
+                                        <label>Department <span>*</span></label>
+                                    </div>
+                                    <div class="Department-input">
+                                        <select>
+                                            <option id="test6" value="cardiology" selected="selected">Cardiology</option>
+                                            <option value="pulmonology">Pulmonology</option>
+                                            <option value="dentistry">Dentistry</option>
+                                            <option value="dermatology">Dermatology</option>
+                                            <option value="gynecology">Gynecology</option>
+                                            <option value="urology">Urology</option>
+                                            <option value="podiatry">Podiatry</option>
+                                            <option value="radiology">Radiology</option>
+                                            <option value="nephrology">Nephrology</option>
+                                            <option value="oncology">Oncology</option>
+                                            <option value="rhinology">Rhinology</option>
+                                            <option value="sports-medicine">Sports Medicine</option>
+                                            <option value="rheumatology">Rheumatology</option>
+                                            <option value="neurology">Neurology</option>
+                                            <option value="endocrinology">Endocrinology</option>
+                                            
+                                        </select>
+                                        
+
+                                    </div>
+
+                                </div>
+                                <div class="Doctor-label-input">
+                                    <div class="Doctor-label">
+                                        <label>Doctor <span>*</span></label>
+
+                                    </div>
+                                    <div class="Doctor-input">
+                                        <select>
+                                            <option value="doctor-1" selected="selected">Christopher Barnes</option>
+                                            <option value="doctor-2">Brittany Oliver</option>
+                                            <option value="doctor-3">Liam Lynch</option>
+                                            <option value="doctor-3">Gregory Walters</option>
+                                            <option value="doctor-4">Roméo Prevost</option>
+                                            <option value="doctor-5">Oliver Collet</option>
+                                            <option value="doctor-6">Cornelia Murgeanu</option>
+                                            <option value="doctor-7">Titouan Chauvin</option>
+                                            <option value="doctor-8">Gaspard Masson</option>
+                                            <option value="doctor-9">Amélie Baltazar</option>
+                                            <option value="doctor-10">Veronika Mamojka</option>
+                                            <option value="doctor-11">Theresa Hunter</option>
+                                            <option value="doctor-12">Hina Saitō</option>
+                                            <option value="doctor-13">John Doe</option>
+                                            <option value="doctor-14">Cecilia Dinulescu</option>
+                                            <option value="doctor-15">Roméo Renard</option>
+                                            <option value="doctor-16">Sidorela Frashëri</option>
+                                            <option value="doctor-17">María Elena Trejo</option>
+                                            
+                                        </select>
+                                        
+
+                                    </div>
+
+                                </div>
+                                <div class="When-label-input">
+                                    <div class="When-label">
+                                        <label>When <span>*</span></label>
+
+                                    </div>
+                                    <div class="When-input">
+                                        <input type="date" id="" name="calender">
+
+                                    </div>
+
+                                </div>
+                                <div class="What-time-label-input">
+                                    <div class="What-time-label">
+                                        <label>What time <span>*</span></label>
+
+                                    </div>
+                                    <div class="What-time-input">
+                                        <select>
+                                            <option value="seven" selected="selected">07:00</option>
+                                            <option value="eight">08:00</option>
+                                            <option value="nine">09:00</option>
+                                            <option value="ten">10:00</option>
+                                            <option value="eleven">11:00</option>
+                                            <option value="twelve">12:00</option>
+                                            <option value="thirteen">13:00</option>
+                                            <option value="fourteen">14:00</option>
+                                            <option value="fifteen">15:00</option>
+                                            <option value="sixteen">16:00</option>
+                                            <option value="seventeen">17:00</option>
+                                        </select>
+
+                                    </div>
+
+                                </div>
+                                <div class="Email-label-input">
+                                    <div class="Email-label">
+                                        <label>Email</label>
+
+                                    </div>
+                                    <div class="Email-input">
+                                        <input >
+
+                                    </div>
+
+                                </div>
+                                <div class="Phone-label-input">
+                                    <div class="Phone-label">
+                                        <label>Phone</label>
+
+                                    </div>
+                                    <div class="Phone-input">
+                                        <input autocomplete="tel-national">
+
+                                    </div>
+
+                                </div>
+                                <div class="submit">
+                                    <a href="#">Submit</a>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="map">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1092.4693593238449!2d8.296823146024161!3d47.05811108978284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ffb70e3daea15%3A0x97fe4e62bc197129!2sWomen&#39;s%20Hospital%20Kantonsspital%20Luzern!5e0!3m2!1sen!2sus!4v1607702021981!5m2!1sen!2sus" 
+                        width="555px" height="698px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+
+                </div>
+                <div class="What-patients-say">
+                    <div class="what-patients">
+                        <h2>What patients say...</h2>
+                        <p>Our patients experience with our medical centre, here are some of them.</p>
+                    </div> 
+                    <div style="position: relative;"> 
+                        <div class="mySlides" id="mySlides1">
+                            <p>“I would like to let you know how pleased I am with the outcome of my procedure.  The result was excellent and makes the future</br>
+                                much better for me.  My treatment was second to none and all the staff at Kalium Medical were efficient, polite and caring. I’m</br>
+                                very happy that finally my area has a better hospital.”
+                            </p>
+                                <p>
+                                    <strong>Melissa Brunner</strong>
+                                </p>
+    
+                        </div>
+                        <div class="mySlides">
+                            <p>“The care that I received at the clinic was fantastic. I was made to feel at ease, and comfortable at all times. All explanations were</br>
+                                clear, and the support from the staff from when I first arrived until I left, was much more than I had expected, resulting in a far</br>
+                                better experience than I had anticipated. I am so impressed by the whole procedure and all the staff, and wanted to say a huge</br>
+                                thanks to all involved.”
+                            </p>
+                                <p>
+                                    <strong>Daniel Zimmermann</strong>
+                                </p>
+    
+                        </div>
+                        <div class="mySlides">
+                            <p>“I was given excellent treatment and informed every step of what was going to happen and after surgery all members of staff</br>
+                                treated me really well considering the surgery I had done with dignity & care. I’m very impressed with whole procedure from start</br>
+                                to finish”
+                            </p>
+                                <p>
+                                    <strong>Moisés Salinas</strong>
+                                </p>
+    
+                        </div>
+                        <div class="mySlides">
+                            <p>“It really is too good to be true. I couldn’t believe it when the doctors said that I would be in and out in just one session. I would</br>
+                                recommend the Gamma Knife procedure to anyone as it really is just brilliant. I couldn’t feel a thing – not even when the metal</br>
+                                frame was on. I’ve been looked after so well by everybody here and feel incredibly lucky.”
+                            </p>
+                                <p>
+                                    <strong>Moisés Salinas</strong>
+                                </p>
+    
+                        </div>
+                        <div class="mySlides fade">
+                            <p>“I am writing to express my gratitude from my family for the care given to my mother. In your medical center, there was care,</br>
+                                compassion, and respect. A special thank you to your social workers as well; they provided professional guidance, comfort, and</br>
+                                strength to make our own decisions. All our hope that you continue along this path.”
+                            </p>
+                                <p>
+                                    <strong>Rodolf Pelikán</strong>
+                                </p>
+    
+                        </div>
+
+                    </div>   
+            
+                   
+
+                </div>
+                <div class="navigator">
+                    <span class="dot" onclick="slideAppear5(0)"></span> 
+                    <span class="dot" onclick="slideAppear5(1)"></span> 
+                    <span class="dot" onclick="slideAppear5(2)"></span>
+                    <span class="dot" onclick="slideAppear5(3)"></span>
+                    <span class="dot" onclick="slideAppear5(4)"></span> 
+
+                  </div>
+
+            </div>
+
+        </div>
+        <div class="news-events">
+            <div class="container">
+                <div class="news">
+                    <h2>News and Events</h2>
+                    <p>Get the latest information related to our medical centre, company news and more.</p>
+
+                </div>
+                <div class="more-news">
+                    <a href="#">More news<i class="fa fa-angle-double-right"></i></a>
+
+                </div>
+                <div class="blog">
+                    
+                    <div id="photo-blog1" class="blog1">
+                        <img class="p2" src="img/doctor-interview-400x250.jpg">
+                        <div id="test6" class="photo-gif1">
+                            
+                           </div>
+                        <div class="blog-content1">
+                            <p>NOVEMBER 9, 2018</p>
+                            <a href="#"><h3>An interview with Dr.</br>Rakshan Baberjee</h3></h3></a>
+
+                        </div>
+
+                    </div>
+                    <div class="blog2">
+                        <img src="img/eye-two-400x250.jpg">
+                        <div class="blog-content2">
+                            <p>NOVEMBER 8, 2018</p>
+                            <a href="#"><h3>Regular eye exam are</br>important and that's why</h3></h3></a>
+
+                        </div>
+
+                    </div>
+                    <div class="blog3">
+                        <img src="img/team-of-doctors-meeting-400x250.jpg">
+                        <div class="blog-content3">
+                            <p>NOVEMBER 8, 2018</p>
+                            <a href="#"><h3>Amazing health care</br>coming to your area</h3></h3></a>
+
+                        </div>
+                        
+
+                    </div>
+                    <div class="blog4">
+                        <img src="img/pregnant-woman-400x250.jpg">
+                        <div class="blog-content4">
+                            <p>NOVEMBER 7, 2018</p>
+                            <a href="#"><h3>What to avoid during</br>pregnancy</h3></h3></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <footer>
+            <div class="container">
+                <div class="kalium-info-logo">
+                    <img src="img/kalium-medical.png">
+                    <p>Spitalstrasse 25, 60030</br> 
+                        Lucerne, Switzerland </p>
+                        <div class="telephone"><strong>Tel:</strong><a href="#">+44 (55) 4347 856 532</a></div>
+                        <div class="email"><strong>Mail:</strong><a href="#">info@kalium-medical.com</a></div>
+                        <div class="icon-brand">
+                             <a href="#"><img src="img/Screen Shot 2020-12-04 at 12.06.38 AM.png"></a>
+                        </div>
+
+                </div>
+                <div class="footer-ul-1">
+                    <h2>Departments</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Cardiology</a>
+                        </li>
+                        <li>
+                            <a href="#">Dentistry</a>
+                        </li>
+                        <li>
+                            <a href="#">Dermatology</a>
+                        </li>
+                        <li>
+                            <a href="#">Gynecology</a>
+                        </li>
+                        <li>
+                            <a href="#">Pediatrics</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+                <div class="footer-ul-2">
+                    <h2>Services</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Radiology</a>
+                        </li>
+                        <li>
+                            <a href="#">Gynecology</a>
+                        </li>
+                        <li>
+                            <a href="#">Nephrology</a>
+                        </li>
+                        <li>
+                            <a href="#">Oncology</a>
+                        </li>
+                        <li>
+                            <a href="#">Podiatry</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+                <div class="footer-ul-3">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Our clinic</a>
+                        </li>
+                        <li>
+                            <a href="#">Patients</a>
+                        </li>
+                        <li>
+                            <a href="#">Doctors</a>
+                        </li>
+                        <li>
+                            <a href="#">Facilities</a>
+                        </li>
+                        <li>
+                            <a href="#">Appointments</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom-left">
+                        <p>© Copyright 2020  <span id="spa1"> | </span>  <a id="pad1">Kalium Theme</a> by <a id="pad2">Laborator</a>  <span id="spa2">  | </span>  All Rights Reserved</p>
+
+                    </div>
+                    <div class="footer-bottom-right">
+                        <p>Free call 24/7  <span id="spa3"> | </span>  <a>1-408-555-5555</a></p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </footer>
+    </div>
+    <script>
+        
+        var timer = null;
+        var index = 0;
+        function plusShow(n){
+            clearTimeout(timer);
+            index += n;
+            slideShow(index);
+        }
+        slideShow(0);
+   
+        function slideShow(m){
+            var x = document.getElementById("point");
+            var y = document.getElementById("previous");
+            var z = document.getElementById("next1");
+            y.style.backgroundColor= "unset";
+            z.style.backgroundColor= "unset";
+            var b = document.getElementsByClassName("mySlide");
+            var h = document.getElementsByClassName("message-slide-h3");
+            var p = document.getElementsByClassName("message-slide-p");
+            var ci = document.getElementsByClassName("message-slide-a");
+            if(m == b.length){
+                index = 0;
+            }
+            if(m < 0){
+                index = b.length - 1;
+            }
+            for(a = 0 ; a < b.length ; a++){
+                b[a].style.display = "none";
+                h[a].style.transition= "all 100ms  ease-in";
+                h[a].style.opacity = "0";
+               p[a].style.transition= "all 100ms ease-in";
+                p[a].style.opacity = "0";
+                ci[a].style.transition= "all 100ms ease-in";
+                ci[a].style.opacity = "0";
+                
+            }
+
+            b[index].style.display = "block";
+            
+            h[index].style.transition= "all 500ms ease-in";
+            h[index].style.opacity = "1";
+            p[index].style.transition= "all 2s ease-in";
+            p[index].style.opacity = "1";
+            ci[index].style.transition= "all 4s ease-in";
+            ci[index].style.visibility = "0s";
+            ci[index].style.opacity = "1";
+            
+            
+           
+            
+            if (x.style.display == "block"){
+            y.style.backgroundColor= "#c0c0c0";
+            z.style.backgroundColor="#c0c0c0"
+         }
+          
+            timer = setTimeout( time , 4000);
+            
+            
+            
+        }
+        function time(){
+            index++;
+            slideShow(index);
+            
+        }
+         function openBox(){
+                
+                var x = document.getElementById("ff");
+                 x.style.display="inline-block";
+                 var y = document.getElementById("Hide1");
+                 var z = document.getElementById("Hide2");
+                 y.style.display="none";
+                 z.style.display="none";
+                 var a = document.getElementById("Se");
+                 a.style.marginLeft="-25px"; 
+             }
+            var index2 = 0;
+            var times=null;
+            slideAppear(0);
+            function slideAppear(n){
+                var arr = document.getElementsByClassName("mySlides");
+                for (i=0 ; i < arr.length ; i++){
+                    //arr[i].style.display="none";
+                    arr[i].style.transition= "all 500ms ease-in";
+                    arr[i].style.top="25px";
+                    arr[i].style.opacity=0;
+                }
+              
+                //arr[n].style.display="unset";
+                arr[n].style.top = 0;
+                arr[n].style.transition= "all 1s ease-in";
+                arr[n].style.opacity=1;
+                 times = setTimeout( lastTime , 5000);
+            } 
+     
+              
+            function lastTime(){
+                index2++;
+                if(index2 == 5){
+                    index2 = 0;
+                }
+                slideAppear(index2);
+            }
+            function slideAppear5(m){
+                clearTimeout(times);
+                slideAppear(m);
+            }
+           
+          
+    </script> 
+     <script src="jquery/jquery-3.3.1.min.js"></script>
+     <script src="myJquery.js"></script> 
+</body>
+
+
+
+</html>
